@@ -1,0 +1,35 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    color: #222;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header a.logo {
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
